@@ -1,0 +1,1 @@
+./sd_batch.py --gpu 0 --dwin 24 --dhop 12 --wav_file test.wav --vad_file test_vad.txt --checkpoint /SPL40/wychoi4/SPKDIAR_Work/dvector_extractor_v5/exp/ge2e/34k --dvector_log_file test.log --test_iteration 1 --model_name /SPL40/wychoi4/SPKDIAR_Work/uis-rnn_v5_beam/model/34k_SWB_3_6.uisrnn --uisrnn_log_file test.log2 --out_file result.txt
